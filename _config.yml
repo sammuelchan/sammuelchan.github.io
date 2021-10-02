@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: sammuel's blog
+subtitle: myBlog
+description: 随笔
 keywords:
-author: John Doe
-language: en
+author: sammuelchan
+language: zh-CN
 timezone: ''
 
 # URL
@@ -97,7 +97,15 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
+plugins: hexo-generate-feed
+
+# Configration for Theme-Next
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 20
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
